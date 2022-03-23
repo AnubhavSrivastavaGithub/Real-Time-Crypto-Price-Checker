@@ -1,0 +1,156 @@
+.parent-box {
+  background-color: black;
+  width: 55%;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  overflow: hidden;
+  box-shadow: 0.2rem 0.2rem rgb(0,0,0,0.5);
+}
+
+.left-sub-box {
+  background: rgb(47,79,79,0);
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  color: gold;
+  width: 15%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 0.35rem;
+  text-align: center;
+} .coin-name {
+  display: block;
+  text-shadow: 1px 1px rgb(0,0,0,0.8);
+  margin: 0.2rem 0;
+  font-weight: 600;
+  font-size: large;
+}
+
+.icon {
+  background: rgb(255,255,255,0.75);
+  padding: 0 0.2rem;
+  border-radius: 0.75rem;
+  width: 65%;
+  height: 100%;
+  display: inline-block;
+  box-shadow: 1px 1px black;
+}
+.parent-box:hover {
+  transform: scale(1.08);
+  border: 1px solid gold;
+}
+img {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0;
+}
+
+.info-block {
+  color: white;
+  width: 80%;
+  display: inline-block;
+  float: right;
+  text-align: left;
+}
+
+h4, h5, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.data-element {
+  padding: 2px;
+  display: block;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 2px;
+}
+
+.data {
+  color: cornflowerblue;
+}
+
+.coloumn {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0.5rem;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: lime;
+}
+
+@media screen and (max-width: 800px) {
+  .parent-box {
+    width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+    display: inline-block;
+    margin: 1rem;
+  }
+  .coin-name {
+    display: block;
+  }
+  .left-sub-box {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .coloumn {
+    display: block;
+  }
+  .info-block {
+    float: none;
+    width: 90%;
+  }
+  .data-element {
+    text-align: center;
+    padding: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+  .parent-box:hover {
+    transform: scale(1.01);
+    border: 1px solid gold;
+  }
+  img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .parent-box {
+    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+    display: inline-block;
+    margin: 1rem;
+  }
+  .coin-name {
+    display: block;
+  }
+  .left-sub-box {
+    display: block;
+    width: 60%;
+    margin: auto;
+  }
+  .coloumn {
+    display: block;
+  }
+  .info-block {
+    float: none;
+    width: 90%;
+  }
+  .data-element {
+    text-align: center;
+    padding: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+  .parent-box:hover {
+    transform: scale(1.01);
+    border: 1px solid gold;
+  }
+  img {
+    width: 40%;
+  }
+}

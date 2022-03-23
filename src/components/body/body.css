@@ -1,0 +1,13 @@
+.body {
+  text-align: center;
+}
+
+.pagination {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ErrState {
+  text-shadow: 1px 1px gold;
+}

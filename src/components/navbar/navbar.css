@@ -1,0 +1,18 @@
+header {
+  background-color: #F5BA13;
+  padding:1px;
+  height: 3rem;
+}
+
+.title {
+  color: white;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.title-link {
+  color: white;
+  font-weight: 800;
+  text-shadow: 2px 2px grey;
+  text-decoration: none;
+}
