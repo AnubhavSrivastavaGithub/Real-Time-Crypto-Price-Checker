@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+<!-- Header Image -->
+<br />
+<p align="center">
+ <img src="https://socialify.git.ci/AnubhavSrivastavaGithub/Real-Time-Crypto-Price-Checker/image?description=1&descriptionEditable=A%20Real-Time-Crypto-Price-Checker%20Website&font=Bitter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark" alt="Real-Time-Crypto-Price-Checker" width="640" height="320" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">Real Time Crypto Price Checker</h1>
 
-## Available Scripts
+  <h3 align="center">
+  A website to check Trending Real Time prices of <i>100+ Cryptocurrencies</i>
+    <br />
+    <br />
+    <a href="http://real-time-crypto-price-checker.herokuapp.com/">View Live Deployment</a>
+    ·
+    <a href="https://github.com/AnubhavSrivastavaGithub/Real-Time-Crypto-Price-Checker/issues">Request Feature</a>
+  </h3>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#key-features">Key Features</a>
+    </li>
+    <li><a href="#screenshots">Screenshots</a></li>
+  </ol>
+</details>
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About The Project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Real-Time-Crypto-Price-Checker is a **simple, easy to use** website which helps you to check trending real time prices of over **100 Cryptocurrencies**.
+- The UI of the website is very intuitively minimalistic aiming to show the user the desired information without any distraction.
 
-### `npm test`
+#### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) | [Coinstats API](https://documenter.getpostman.com/view/5734027/RzZ6Hzr3) | [Axios](https://www.npmjs.com/package/axios) | [Material UI](https://mui.com/)
 
-### `npm run build`
+<!-- Key Features -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Minimalistic yet Intuitive UI**
+- Displays **12+ unique attributes** associated with each Cryptocurrency
+- Shows Real Time Data of **100+ Cryptocurrencies** including Bitcoin, Ethereum, Dogecoin etc.
+- Shows Price Changes in last **1 Hour, 24 Hours** and in a **Week**
+- Shows valuable data such as **Real Time Price**, **Total Market Cap**, **Available Supply**, **Volume of Trading**, **Strength in comparison to BTC** etc.
+- Responsive Design without use of any CSS Framework
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Screenshots -->
 
-### `npm run eject`
+## Screenshots
+![image](https://user-images.githubusercontent.com/50038824/159849952-f59c6942-18e2-4388-8c89-4de2695417e2.png)
+![image](https://user-images.githubusercontent.com/50038824/159849981-067da7fe-6c96-4b89-8cc7-43e10026f765.png)
+![image](https://user-images.githubusercontent.com/50038824/159850035-854be9e6-b1cb-4e94-b3d9-68f33dec05e2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Made with Love -->
 
-## Learn More
+### Made with <span style="color: #e25555;">&#9829;</span> by Anubhav Srivastava
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
