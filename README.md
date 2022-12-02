@@ -9,7 +9,7 @@
   A website to check Trending Real Time prices of <i>100+ Cryptocurrencies</i>
     <br />
     <br />
-    <a href="http://real-time-crypto-price-checker.herokuapp.com/">View Live Deployment</a>
+    <a href="https://real-time-crypto-price-checker.netlify.app//">View Live Deployment</a>
     ·
     <a href="https://github.com/AnubhavSrivastavaGithub/Real-Time-Crypto-Price-Checker/issues">Request Feature</a>
   </h3>
